@@ -1,19 +1,43 @@
-Listen，Rga。
+Listen Kernel
+========================
+Listen Kernel
+core of any Listen operating system.
+Three principles:
+Design by Contract, pure function core, reactive architecture.
+These implement a rule model, a form of AI.
+Goal: a rule model kernel built on three principles.
+The AI exists as the kernel or as other forms.
 
-Listen，负责内核处理、Rga，负责AI架构处理。
+About participation
+========================
+Codebase small, under active development.
+Cloning allowed to follow progress.
+Contributors may modify.
+License: AGPL-3.0.
+Any use must disclose source code.
 
-这个内核是为了与AI架构进行交叉处理。
+Communication and Support
+=========================
+Use issue tracker for questions.
+Responses given as time permits.
+Community input welcome.
+Basic courtesy and technical focus appreciated.
 
-现在这个项目还是刚开始，我也还在学习C语言和python同时做代码移植。
+Project creator
+=========================
+Initiated by zixin.
+Focus: low-level system design.
+Direction evolves with practical needs.
 
-需要广大同志，帮助我以及完善这个项目。
+Design Implementation
+========================
+Design by Contract uses macros:
+REQUIRE for inputs, ENSURE for outputs.
+Pure functions compute without side effects.
+Reactive architecture separates flow:
+calls pure functions, handles errors, prints results.
+Kernel stays modular.
 
-过程可能非常艰难，因为你需要从零开始，不依赖于任何已有的系统。
-
-内核必须重新写，不能依靠别人的代码。
-
-Al架构必须重新设计，必须完整而拥有人格。
-
-我知道这非常非常的难，所以我需要帮助。
-
-谢谢，I will get back to you.
+Welcome message
+-------------------------
+Welcome to the Listen Kernel project.
